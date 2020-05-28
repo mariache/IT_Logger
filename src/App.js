@@ -5,6 +5,7 @@ import NavBar from "./components/layout/NavBar";
 import "./App.css";
 import Logs from "./components/logs/Logs";
 import AddBtn from "./components/layout/AddBtn";
+import AddLogModal from "./components/logs/AddLogModal";
 
 const App = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const App = () => {
       <div className="container">
         <Logs />
         <AddBtn />
+        <AddLogModal />
       </div>
     </>
   );
