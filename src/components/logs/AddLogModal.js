@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import M from "materialize-css/dist/js/materialize.min.js";
 
 const AddLogModal = () => {
   const [message, setMessage] = useState("");
@@ -6,7 +7,11 @@ const AddLogModal = () => {
   const [tech, setTech] = useState("");
 
   const onSubmit = () => {
-    console.log(message, tech, attention);
+    if (message === "" || tech === "") {
+      M.toast({ html: "Please enter a message and tech" });
+    } else {
+      console.log(message, tech, attention);
+    }
   };
 
   const handleMessage = (e) => setMessage(e.target.value);
