@@ -23,7 +23,7 @@ const AddLogModal = () => {
 
   return (
     <div id="add-log-modal" className="modal" style={modalStyle}>
-      <div className="modal-content">
+      <div className="modal-content" style={{ height: "89%" }}>
         <h4>Enter System Log</h4>
         <div className="row">
           <div className="input-field">
