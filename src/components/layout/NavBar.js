@@ -1,6 +1,6 @@
 import React from "react";
 
-export const NavBar = () => {
+const NavBar = () => {
   return (
     <nav style={{ marginBottom: 30 }} className="blue">
       <div className="nav-wrapper">

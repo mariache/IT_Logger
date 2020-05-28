@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
-import { NavBar } from "./components/layout/NavBar";
+import NavBar from "./components/layout/NavBar";
 import "./App.css";
 import Logs from "./components/logs/Logs";
+import AddBtn from "./components/layout/AddBtn";
 
 const App = () => {
   useEffect(() => {
@@ -15,6 +16,7 @@ const App = () => {
       <NavBar />
       <div className="container">
         <Logs />
+        <AddBtn />
       </div>
     </>
   );
