@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import { Spinner } from "../layout/Spinner";
 import { LogItem } from "../logs/LogItem";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { getLogs } from "../../actions/logActions";
+import PreLoader from "../layout/PreLoader";
 
 export const Logs = ({ log: { logs, loading }, getLogs }) => {
   useEffect(() => {
@@ -12,7 +12,7 @@ export const Logs = ({ log: { logs, loading }, getLogs }) => {
   }, []);
 
   if (!loading || logs === null) {
-    return <Spinner />;
+    return <PreLoader />;
   }
 
   return (
