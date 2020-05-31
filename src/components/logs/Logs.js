@@ -11,7 +11,7 @@ export const Logs = ({ log: { logs, loading }, getLogs }) => {
     // eslint-disable-next-line
   }, []);
 
-  if (!loading || logs === null) {
+  if (loading || logs === null) {
     return <PreLoader />;
   }
 
@@ -31,6 +31,7 @@ export const Logs = ({ log: { logs, loading }, getLogs }) => {
 
 Logs.propTypes = {
   log: PropTypes.object.isRequired,
+  getLogs: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = (state) => ({ log: state.log });
