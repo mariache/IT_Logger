@@ -1,6 +1,6 @@
 # IT Logger
 
-React application to track IT department tasks and issues. Uses JSON-Server as a mock backend.
+React/Redux application to track IT department tasks and issues. Uses JSON-Server as a mock backend and Redux for managing application state
 
 ## Usage
 
@@ -15,6 +15,7 @@ npm run dev     # runs concurrently JSON-server & React app
 
 - [JSON-server](https://github.com/typicode/json-server) - MongoDB Atlas is a fully-managed cloud database
 - [React](https://reactjs.org/docs/getting-started.html) - The JS library used
+- [Redux](https://redux.js.org/) - The JS library for managing application state
 
 ## Contributing
 
@@ -27,4 +28,3 @@ Fork and feel free for submitting pull requests.
 ## Acknowledgments
 
 - Inspired by [Brad Traversy](https://github.com/bradtraversy)
-
