@@ -1,32 +1,32 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed network card in server 007",
-      "attention": false,
+      "message": "Fixed hard drive on workstation 0085",
       "tech": "Sam Smith",
-      "date": "2019-05-31T15:46:10.179Z"
-    },
-    {
-      "id": 2,
-      "message": "Fixed hard drive on workstation 002",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2019-05-31T16:18:04.245Z"
-    },
-    {
-      "id": 3,
-      "message": "1122 wireless down",
       "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T15:46:48.690Z"
+      "date": "2020-05-31T10:41:17.126Z",
+      "id": 1
     },
     {
-      "id": 4,
-      "message": "Workstation 026 is up and running",
+      "message": "Laptop 56499 is missing drivers",
+      "tech": "John Doe",
       "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T19:57:35.544Z"
+      "date": "2020-05-31T10:41:52.355Z",
+      "id": 2
+    },
+    {
+      "message": "test log",
+      "tech": "John Doe",
+      "attention": false,
+      "date": "2020-05-31T11:46:08.554Z",
+      "id": 3
+    },
+    {
+      "message": "FFF",
+      "tech": "Sam Smith",
+      "attention": false,
+      "date": "2020-05-31T12:21:44.806Z",
+      "id": 4
     }
   ],
   "techs": [
@@ -44,6 +44,11 @@
       "id": 3,
       "firstName": "Sara",
       "lastName": "Wilson"
+    },
+    {
+      "firstName": "Eddy",
+      "lastName": "Bravo",
+      "id": 4
     }
   ]
 }
